@@ -1,0 +1,9 @@
+site_name: orders-network
+site_description: Infrastructure for a new platform service
+
+nav:
+  - Home: index.md
+  - Network: network.md
+
+plugins:
+  - techdocs-core

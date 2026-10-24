@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: orders-network
+  description: Infrastructure for a new platform service
+  annotations:
+    github.com/project-slug: jk-platform-lab/orders-network
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - staging
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/jaykearney
+  dependsOn:
+    - component:infradoctor
